@@ -1,0 +1,9 @@
+FROM alpine
+
+MAINTAINER Torin Sandall <torinsandall@gmail.com>
+
+ADD bin/linux_amd64/opa-cp /
+
+RUN apk add --no-cache ca-certificates
+
+ENTRYPOINT ["/opa-cp"]
