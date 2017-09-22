@@ -1,7 +1,7 @@
 BIN 		:= opa-cp
 PKG 		:= github.com/open-policy-agent/opa-cp
 REPOSITORY 	:= openpolicyagent/opa-cp
-VERSION 	:= 0.1
+VERSION 	:= 0.2
 BUILD_IMAGE := golang:1.8-alpine
 
 build:
